@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #FFDDA1;
+    --cor2: #FFD151;
+    --cor3: #FFB800;
+    --cor4: #F8C537;
+    --cor5: #EDB230;
+    --cor6: #E2A123;
+    --cor7: #E77728;
+}
+
+html, body {
+    min-width: 100%vw;
+    min-height: 100%vh;
+    background-color: var(--cor0);
+    background-image: url(../image/trigo-img-png.png);
+    color: black;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: var(--cor3);
+    padding: 0px;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 100%;
+    color: var(--cor0);
+    background-color: var(--cor4);
+    margin: 5px;
+    padding: 0px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.2s ;
+}
+
+nav > a:hover {
+    background-color: var(--cor7);
+    border-radius: 5px 5px;
+    color: var(--cor2);
+}
+
+main {
+    min-width: 300px;
+    max-width: 300px;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+footer {
+    background-color: #c25e17ec;
+    color: var(--cor0);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
