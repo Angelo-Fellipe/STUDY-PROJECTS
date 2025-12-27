@@ -78,13 +78,20 @@ main img {
     height: auto;
     display: block;
     margin: 20px auto;
+    border-radius: 50px;
 }
 
-main img.pequena {
-    max-width: 350px;
-    display: block;
-    margin: auto;
+ul {
+    list-style-type: square;
+    margin: 10px;
+    padding-left: 10px;
 }
+
+ol li {
+    margin: 10px;
+    padding-left: 10px;
+}
+
 footer {
     background-color: #c25e17ec;
     color: var(--cor0);
